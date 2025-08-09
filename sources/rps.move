@@ -73,14 +73,15 @@ module rehaan_addr::RockPaperScissors {
     
     fun determine_winner(move1: u8, move2: u8, player1: address, player2: address): address {
         if (move1 == move2) {
-            @0x0  // Tie
+            @0x0  
         } else if ((move1 == ROCK && move2 == SCISSORS) ||
                    (move1 == PAPER && move2 == ROCK) ||
                    (move1 == SCISSORS && move2 == PAPER)) {
             player1  
         } else {
-            player2  // Player 2 wins
+            player2  
         }
     }
 
 }
+
