@@ -1,0 +1,15 @@
+[package]
+name = "Rock"
+version = "0.0.1"
+authors = []
+
+[addresses]
+rehaan_addr = "0x28b6bbd7e043d084b0296e555641a87ee43bc6f77caf52976cb227938622d310"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
